@@ -1,1 +1,0 @@
-print("Write first program in R")
