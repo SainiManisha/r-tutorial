@@ -1,11 +1,4 @@
-source('paste.r')
-source('paste.r')
-a<-"manisha"
-b<-"saini"
-paste(a,b)
-source('paste.r')
-source('paste.r')
-q()
+
 5
 5.5
 -5.5
