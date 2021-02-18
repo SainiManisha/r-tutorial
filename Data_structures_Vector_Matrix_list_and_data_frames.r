@@ -76,6 +76,7 @@ song
 str(song)
 class(list)
 class(song)
+
 # data frame data structure in R
 name<-c("Anne","Dell","Frank","Julia","cath")
 age<-c(28,30,21,39,35)
