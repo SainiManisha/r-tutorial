@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 source('paste.r')
 source('paste.r')
 a<-"manisha"
@@ -6,6 +7,9 @@ paste(a,b)
 source('paste.r')
 source('paste.r')
 q()
+=======
+
+>>>>>>> 6c51a7d57843bbb422d22ad7c4cf835f66802431
 5
 5.5
 -5.5
