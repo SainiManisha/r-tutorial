@@ -1,3 +1,4 @@
+# Factor data structures in R
 blood<-c("B","AB","O","A","O","AB")
 blood
 blood_factor<-factor(blood)
@@ -15,6 +16,7 @@ tshirt_factor<-factor(tshirt)
 tshirt_factor
 tshirt_factors<-factor(tshirt,ordered=TRUE, levels=c("S","M","L"))
 tshirt_factors
+
 # Array data structure in R
 A<-array(c(1:9))
 A
