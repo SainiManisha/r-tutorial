@@ -1,3 +1,4 @@
+# Vectors datastructures in R
 a<-c("hearts","spades","diamonds","diamonds","spades")
 a
 c("heart","spades","diamonds","diamonds","spades")
@@ -32,6 +33,8 @@ drwan_ranks
 drawn_ranks
 class(drawn_ranks)
 q()
+
+# Matrix data structures in R
 matrix(1:6,nrow=2)
 matrix(1:6, ncol=3)
 matrix(1:6,nrow=2,byrow=TRUE)
@@ -56,6 +59,7 @@ cbind(num,char)
 c1<-cbind(num,char)
 c1
 class(c1)
+
 # lists data structure in R
 list("Rsome times","190",5)
 song<-list("Rsome times",190,5)
@@ -72,6 +76,7 @@ song
 str(song)
 class(list)
 class(song)
+
 # data frame data structure in R
 name<-c("Anne","Dell","Frank","Julia","cath")
 age<-c(28,30,21,39,35)
