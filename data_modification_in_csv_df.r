@@ -16,7 +16,7 @@ df
 df$Mentor <- new_mentor
 df
 df$Mentor[15:20]
-df$Mentor[15:20] <- rep(c("H K V"), 6)
+df$Mentor[15:20] <- rep(c("H K V"), 6))
 df 
 df$Programme <- "BCA"
 df
