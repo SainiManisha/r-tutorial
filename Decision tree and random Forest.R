@@ -10,7 +10,7 @@ m <- length(iris) - 1
 n <- nrow(iris)
 
 n_test <- TEST_SIZE * n
-n_train= n-n_test
+n_train <- n-n_test
 
 set.seed(SEED)
 test_indices <- sample(1:n, n_test)
