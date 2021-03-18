@@ -29,7 +29,7 @@ library(rpart.plot)
 # rpart and ctree are two packages for decison tree.
 
 output.tree <- ctree(Species ~ Sepal.Length + Sepal.Width + Petal.Length + Petal.Width, data = iris_train)
-fit <- rpart(Species ~ Sepal.Length + Sepal.Width + Petal.Length + Petal.Width, data = iris)
+fit <- rpart(Species ~ Sepal.Length + Sepal.Width + Petal.Length + Petal.Width, data = iris_train)
 
 dev.new()
 plot(output.tree)
