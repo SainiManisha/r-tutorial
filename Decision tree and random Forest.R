@@ -39,7 +39,7 @@ dev.new()
 rpart.plot(fit)
 dev.off()
 
-# predicted <- predict(out.tree, iris_test, type = 'class')
+# predicted <- predict(output.tree, iris_test, type = 'class')
 predicted <- predict(fit, iris_test, type = 'class')
 
 cf <- table(predicted, iris_test$Species)
