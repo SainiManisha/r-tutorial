@@ -25,4 +25,10 @@ dev.off()
 initialState = c(1,0,0)
 print(initialState * mc ^ 25)
 
+initialState = c(0,1,0)
+print(initialState * mc ^ 25)
+
+initialState = c(0,0,1)
+print(initialState * mc ^ 25)
+
 print(probability_matrix ^ 25)
