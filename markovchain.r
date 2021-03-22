@@ -10,7 +10,9 @@ print(probability_matrix)
 mc <- new("markovchain", states = states, transitionMatrix = probability_matrix, name = "Weather")
 print(transitionProbability(mc, 'rainy', 'sunny'))
 
+png(filename="mc.png")
 show(mc)
+dev.off()
 
 print('After 25 trials')
 print(mc ^ 25)
