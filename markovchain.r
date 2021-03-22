@@ -24,3 +24,5 @@ dev.off()
 
 initialState = c(1,0,0)
 print(initialState * mc ^ 25)
+
+print(probability_matrix ^ 25)
